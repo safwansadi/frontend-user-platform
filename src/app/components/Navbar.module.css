@@ -1,0 +1,48 @@
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+  
+  .navbarList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navLink:hover {
+    color: #ff0;
+  }
+  
+  .fixed {
+    position: fixed;
+    z-index: 1000;
+  }
+  
+
+  
+  .logoutButton {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-left: auto; /* Pushes the button to the right */
+}
+  
+  .logoutButton:hover {
+    background-color: #d6453d; /* Darker red color on hover */
+  }
